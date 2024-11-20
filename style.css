@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr;
+  }
+  nav{
+    color: white;
+    background-color: black;
+  }
+  .right-side{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+  }
+  .top-section{
+    background-color: #7048e8;
+  }
+  menu{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 80px;
+  }
+  .btn-left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+  }
+  .btn-left-side div{
+    margin-right: 10px;
+  }
+  .btn-right-side{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .buttom-section{
+    display: grid;
+    grid-template-columns: 400px 1fr 250px;
+    
+  }
+  
+  button{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #5F3DC4;
+    border-radius: 2px;
+    border-style: none;
+  }
+  .trash{
+    background-color:#d6336c ;
+  }
+  aside, section{
+    color: black;
+    background-color: #e9ecef;
+  }
+  main{
+    color: black;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .email{
+    background-color:#adb5bd;
+    padding: 40px;
+    margin: 40px;
+  }
